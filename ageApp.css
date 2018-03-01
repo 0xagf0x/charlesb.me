@@ -1,0 +1,19 @@
+body {
+    font-family:  arial;
+}
+div{
+    position:fixed;
+    top: 50%;
+    bottom: 10%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+    border: 1px solid #ccc;
+    background-color: lightblue;
+}
+.enter{
+  position: fixed;
+  left: 47%;
+}

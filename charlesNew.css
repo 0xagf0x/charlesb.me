@@ -1,0 +1,647 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+ 
+}
+/* Link Styles */
+
+
+
+a {
+  text-decoration: none;
+  color: #91b4c0;
+}
+a:hover {
+  color: #ee5e15;
+}
+
+/* Section Styles */
+
+
+.resume{
+  font-size: 1.25em;
+  
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  z-index: 100;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+  font-size: 1.5em;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+  font-size: 1.25em;
+}
+.nav a:hover {
+  color: white
+}
+
+
+.dateCharles{
+  font-size: 1.25em;
+  
+}
+header {
+  text-align: center;
+  background: url('http://i.imgur.com/OsJt4po.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-attachment: fixed;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+.experiencePage{
+  color: white;
+  font-size: 100px;
+  position: center;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+/* RESUME PDF PHOTO 
+   RESUME PDF PHOTO 
+   RESUME PDF PHOTO 
+   RESUME PDF PHOTO 
+
+
+   
+.experiencePhoto{
+  height: 50rem;
+  width: 30rem;
+  
+}
+
+*/
+
+.page2{
+  text-align: center;
+  background: url('http://umad.com/img/2015/10/blue-wood-wallpaper-604-662-hd-wallpapers.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-attachment: fixed;
+
+
+  
+}
+.photosPage{
+  color: white;
+  font-size: 100px;
+  display: center;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.page3{
+  text-align: center;
+  background: url('http://cdn.wallpapersafari.com/49/63/HVLRe2.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-attachment: fixed;
+  
+}
+
+.contactPage{
+  color: white;
+  font-size: 100px;
+  display: center;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.page4{
+  text-align: center;
+  background: url('https://www.walldevil.com/wallpapers/a14/wood-texture.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-attachment: fixed;
+  
+}
+
+
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.location {
+  background-color: #222;
+  color: white;
+}
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card:hover {
+  border-color: #91b4c0;
+
+}
+
+.card-title{
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  border-bottom: 4px solid black;
+
+}
+
+.card-title2{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3em;
+  
+}
+
+.experiencePhoto{
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  transition: all .5s;
+}
+.experiencePhoto:hover {
+  transform: scale(1.1);
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  padding-top: 50px;
+  font-size: .5em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+a.facebook {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png);
+}
+a.twitter {
+  background-image: url(http://icons.iconarchive.com/icons/sicons/basic-round-social/512/twitter-icon.png);
+}
+a.linkedin {
+  background-image: url(http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png);
+}
+a.github {
+  background-image: url(https://image.flaticon.com/icons/svg/23/23957.svg);
+}
+a.soundcloud {
+  background-image: url(http://www.iconninja.com/files/104/745/156/soundcloud-icon.svg);
+  
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 60px;
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 18px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-image: url(https://s28.postimg.org/mbtm5tzv1/IMG_230585.png);
+  font-size: 1.375em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid black;
+  border-width: 3px 3px 3px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 700px) {
+  
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .nav {
+    max-width: 1200px;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
+
+.experienceP{
+  font-weight: bold;
+}
+
+/* THIS IS FOR THE NEW PHP FORM */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+.tableClass{
+  background-color: grey;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+tr{
+  margin-left: 50px;
+}
+
+
+
+/* THIS IS FOR THE PHP FORM */
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  -o-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: #ff9966;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+  max-width:400px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#F9F9F9;
+  margin:50px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #000;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:100%;
+  border:none;
+  background:;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:#09C;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color: #000;
+}
+:-moz-placeholder {
+ color:#000;
+}
+::-moz-placeholder {
+ color:#000;
+}
+:-ms-input-placeholder {
+ color:#000;
+}
+
+#contact{
+  background-color: grey;
+}
+.contactText{
+  color: white !important;
+  margin-bottom: 30px;
+}
+
+
+
+/* NEW CONTACT FORM */
+.freecontactform {
+width: 460px;
+font-family: arial;
+padding:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+.freecontactformheader {
+font-size:30px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.freecontactformmessage {
+text-align:center;
+padding-bottom:10px;
+}
+.freecontactform td {
+padding:4px;
+font-size:12px;
+}
+.freecontactform p {
+padding:4px;
+}
+.freecontactform label {
+padding:4px;
+}
+.freecontactform label {
+padding-right:10px
+}
+.required {
+font-weight:bold;
+}
+.required_star {
+font-weight:bold;
+color:#F00;
+}
+.not-required {
+font-weight:normal
+}
+.antispammessage {
+padding:10px;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+font-weight:bold 
+}
+.antispamquestion {
+font-weight:normal;
+}

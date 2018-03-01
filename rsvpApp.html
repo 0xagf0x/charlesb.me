@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSVP App</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="css/rsvpApp.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>RSVP</h1>
+      <p>A Denver Disco Event</p>
+      <form id="registrar">
+        <input type="text" name="name" placeholder="Please Enter First and Last Name">
+        <button type="submit" name="submit" value="submit">Submit</button>
+      </form>
+    </header>
+		
+    <div class="main">	
+      <h2>Invitees</h2>
+      <ul id="invitedList"></ul>	
+    </div>
+  </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="rsvpApp.js"></script>
+</body>
+</html>

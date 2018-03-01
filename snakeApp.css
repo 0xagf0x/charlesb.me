@@ -1,0 +1,30 @@
+
+*{ 
+    padding:0; 
+    margin:0; 
+} 
+body{ 
+    background-color:#000; 
+} 
+td{ 
+    width:20px; 
+    height:20px; 
+} 
+.controls{
+    color: white;
+}
+.arrows{
+    color: white;
+}
+.blank{ 
+    background-color:blank; 
+} 
+.snake{ 
+    background-color:white; 
+} 
+.wall{ 
+    background-color:green; 
+} 
+.fruit{ 
+    background-color:red; 
+} 

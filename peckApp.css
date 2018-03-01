@@ -1,0 +1,21 @@
+body {
+   background: url(https://s10.postimg.org/80g5iezft/joshpeck_birthday1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+
+
+.mainText {
+    color: white;
+    font-family: serif;
+    margin: auto;
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    font-size: 220%;
+    text-align: center;
+}
